@@ -71,7 +71,7 @@
 									<td><%=noc.getPhone()%></td>
 									<td><%=noc.getStatus()%></td>
 									<td>
-									<a href="download?fn=<%=noc.getLetter()%>"
+									<a href="../download?fn=<%=noc.getLetter()%>"
 										class="btn btn-sm btn-primary">Download</a></td>
 									<td>
 										<!--  disabled Comment Button  --> <%
